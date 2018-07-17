@@ -1,0 +1,7 @@
+h3,h4{color:red;}
+b{color:blueviolet;}
+.body {
+    background-image: url("../../assets/bd.jpg");
+    background-repeat: no-repeat;
+    text-align: center;
+}
