@@ -1,7 +1,42 @@
-.abt{text-align:center;
-    background-image: url("../../assets/b.jpg");
-     
-     background-repeat: no-repeat;
-     background-size: 100% 100%;
-     background-position: center;
+.headline {
+  text-align: justify;
+  font-family: 'Times New Roman', Times, serif;
+  color: darkgreen;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.abt {
+  background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url('../../assets/b.jpg') no-repeat;
+  background-size: cover;
+}
+
+.body {
+  opacity: 1;
+}
+
+.subtitle {
+  color: darkblue;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: left;
+}
+
+.details {
+  color: blue;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: left;
+  font-weight: bold;
+}
+.details:hover{
+  background: lightblue;
+}
+.abtdetails {}
+
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }

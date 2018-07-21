@@ -1,14 +1,19 @@
-h3,h4{color:red;}
-b{color:blueviolet;}
-body, html {
-    height: 100%;
-    width: 100%;
-}
- body{
-    background-image: url("../../assets/bd.jpg");
-    background-repeat: no-repeat;
-    text-align: center;
-    height: 100%; 
-    width: 100%;
+.contact {
+    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url('../../assets/bd.jpg') no-repeat;
     background-size: cover;
+    background-size: 100% 100%;
+  }
+  .subtitle {
+  color: darkblue;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: left;
+}
+
+.details {
+  color: blue;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: left;
+  font-weight: bold;
 }
