@@ -1,40 +1,77 @@
 <div class="container">
-    <div class="jumbotron contact">
-        <h3 class="subtitle">CONTACT DETAILS</h3>
-        <div class="row"><div class="col-sm-6">
+  <div class="jumbotron contact">
+    <h3 class="subtitle">CONTACT DETAILS</h3>
+    <div class="row">
+      <div class="col-sm-6">
         <h5 class="subtitle"> Adress:</h5>
-        <div class = "details">
-            House No.-7/77,New Colony Dhaiya,<br/>
-            S.K. Kundu Lane,Near Dhaiya Durga Mandir,<br/>
-            I.S.M.,Dhanbad-826004,<br/>
-            Jharkhand,India<br/>
-                    </div>
-                  </div>
-                  <div class="col-sm-6" style="text-align: center">
-                    <h5 class = "subtitle">Mobile:</h5>
-                    <div class = "details">
-                  +91 8240539160<br/>
-                  +91 6204989655<br/>
-                  +91 7970635228<br/>
-                  +91 7321800909<br/>
-                  +91 9113433507<br/>
-                    </div>
-                  </div>
-                </div>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
+        <div class="details">
+          House No.-7/77,New Colony Dhaiya,
+          <br/> S.K. Kundu Lane,Near Dhaiya Durga Mandir,
+          <br/> I.S.M.,Dhanbad-826004,
+          <br/> Jharkhand,India
+          <br/>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <h5 class="subtitle" style="text-align: center">Mobile:</h5>
+        <div class="details" style="text-align: center">
+          +91 8240539160
+          <br/> +91 6204989655
+          <br/> +91 7970635228
+          <br/> +91 7321800909
+          <br/> +91 9113433507
+          <br/>
+        </div>
+      </div>
+    </div>
+    <br/>
+    <h3 class="subtitle">Drop us a Query</h3>
+    <br/>
+    <div class="contactusform" style="text-align: center">
+      <table>
+        <tr>
+          <td>
+            <label for="name" class="lbl">Name</label>
+          </td>
+          <td style="text-align: center">
+            <input type="text" class="form-control" id="name" [(ngModel)] = "name">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="email" class="lbl">Email address:</label>
+          </td>
+          <td>
+            <input type="email" class="form-control" id="email" [(ngModel)] = "email">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="phone" class="lbl">Phone Number</label>
+          </td>
+          <td>
+            <input type="text" class="form-control" id="phone" [(ngModel)] = "contactno">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="query" class="lbl">Your Query:</label>
+          </td>
+          <td>
+            <textarea class="form-control" rows="5" id="query" [(ngModel)] = "query"></textarea>
+          </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+              <button type="button" class="btn btn-primary" (click)="OnSubmit()">Submit Query</button>
+              <button type="button" class="btn btn-info" (click)="OnReset()">Reset</button>
+            </td>
+          </tr>
+      </table>
+    </div>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+  </div>
 </div>
-</div>
-
-
-
-
-
-

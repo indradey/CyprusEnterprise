@@ -17,3 +17,15 @@
   text-align: left;
   font-weight: bold;
 }
+.contactusform{
+  height: 200px;
+  width: 500px;
+  text-align: center;
+}
+
+.lbl{
+  color: navy;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  background: lightblue;
+}
