@@ -14,3 +14,12 @@
   text-decoration: underline;
   text-align: left;
 }
+
+.body{
+  background: linear-gradient(to bottom right, rgb(0, 225, 255), yellow);
+}
+
+.para{
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
