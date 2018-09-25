@@ -16,6 +16,7 @@ import { ContactusComponent } from './contactus/contactus.component';
 import { ProductsComponent } from './products/products.component';
 import { ServicesComponent } from './services/services.component';
 import { CyprusService } from './cyprus.service';
+import { ViewqueryComponent } from './viewquery/viewquery.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { CyprusService } from './cyprus.service';
     AboutusComponent,
     ContactusComponent,
     ProductsComponent,
-    ServicesComponent
+    ServicesComponent,
+    ViewqueryComponent
   ],
   imports: [
     BrowserModule,
